@@ -1,0 +1,6 @@
+---
+# tasks file for database
+- name: Install MongoDB
+  apt:
+    name: mongodb
+    state: present

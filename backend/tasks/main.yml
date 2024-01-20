@@ -1,0 +1,9 @@
+---
+# tasks file for backend
+- name: Install required packages
+  ansible.builtin.apt:
+    name:
+      - git
+      - nodejs
+    state: present
+    update_cache: yes
